@@ -1,0 +1,6 @@
+services:
+  java:
+    image: openjdk:11
+    working_dir: /app
+    volumes:
+      - ./com:/app/com
